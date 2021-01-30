@@ -1,5 +1,4 @@
 # SmartStethoscope
-Smart Stethoscope
 
 Smart stethoscope is trying to make a diagnosing disease using deep learning algorithms. 
 
