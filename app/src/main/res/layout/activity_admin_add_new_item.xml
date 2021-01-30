@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AdminAddNewItem">
+
+    <ImageView
+        android:cropToPadding="false"
+        android:scaleType="centerCrop"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:id="@+id/select_graph_image"
+        android:src="@drawable/ic_launcher_background"
+        android:layout_width="350dp"
+        android:layout_height="200dp">
+    </ImageView>
+
+    <EditText
+        android:id="@+id/graph_name"
+        android:layout_below="@+id/select_graph_image"
+        android:inputType="textMultiLine"
+        android:layout_marginTop="20dp"
+        android:hint="Label Name..."
+        android:padding="20dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:background="@drawable/input_design"
+        android:layout_width="match_parent"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_height="wrap_content">
+    </EditText>
+
+
+
+    <Button
+        android:id="@+id/add_new_record"
+        android:layout_below="@+id/graph_name"
+        android:text="Add New Record"
+        android:background="@drawable/buttons"
+        android:layout_marginRight="30dp"
+        android:padding="17dp"
+        android:layout_marginTop="20dp"
+        android:textSize="18sp"
+        android:textAllCaps="false"
+        android:textColor="@android:color/white"
+        android:layout_marginLeft="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </Button>
+
+    <TextView
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:layout_below="@+id/add_new_record"/>
+
+    <Button
+        android:layout_below="@id/textView"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="20dp"
+        android:id="@+id/logout_button_admin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Logout"
+        android:textColor="@android:color/white"
+        android:background="@drawable/buttons"
+        />
+</RelativeLayout>

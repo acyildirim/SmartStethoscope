@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "610541880752",
+    "firebase_url": "https://smartstethoscope-fd83a.firebaseio.com",
+    "project_id": "smartstethoscope-fd83a",
+    "storage_bucket": "smartstethoscope-fd83a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:610541880752:android:705c11da1cc73487690275",
+        "android_client_info": {
+          "package_name": "com.example.smartstethoscope"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "610541880752-j5voc5k1sk9mc7mnibt5vtfpssu7i1m1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.smartstethoscope",
+            "certificate_hash": "e5671d71801fb3c518a6b30853d67676c4cee3c2"
+          }
+        },
+        {
+          "client_id": "610541880752-8u8k2n9hk6gi5je6uljndlnt4lbkjsts.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD9FjJbtMSGanF2eRpBnnzFWQDXck8jf5E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "610541880752-8u8k2n9hk6gi5je6uljndlnt4lbkjsts.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
