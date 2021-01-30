@@ -5,7 +5,7 @@ Smart stethoscope is trying to make a diagnosing disease using deep learning alg
 
 Smart Stethoscope will try to diagnose by listening to the lung's voice. 
 
-I designed a mobile application which will show the diagnosis data to the doctor by getting datas from smart stethoscope system.
+Mobile application which will show the diagnosis data to the doctor by getting datas from smart stethoscope system.
 
 Lung's voice data, diagnose graphic and diagnose name which is taken from stethoscope will be shown in this application.
 
